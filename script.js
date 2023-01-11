@@ -19,6 +19,14 @@
 // console.log(sibling)
 
 // previous element sibling
-const subheading=document.querySelector("h3");
-const previousSib=subheading.previousElementSibling.innerHTML;
-console.log(previousSib)
+// const subheading=document.querySelector("h3");
+// const previousSib=subheading.previousElementSibling.innerHTML;
+// console.log(previousSib)
+
+// manupulation 
+const heading=document.querySelector(".heading");
+heading.innerHTML="MERN is Awosome";
+heading.style.color="blue";
+heading.style.fontSize="100px";
+heading.classList.add("second")
+ 
