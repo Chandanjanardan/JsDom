@@ -24,9 +24,17 @@
 // console.log(previousSib)
 
 // manupulation 
-const heading=document.querySelector(".heading");
-heading.innerHTML="MERN is Awosome";
-heading.style.color="blue";
-heading.style.fontSize="100px";
-heading.classList.add("second")
+// const heading=document.querySelector(".heading");
+// heading.innerHTML="MERN is Awosome";
+// heading.style.color="blue";
+// heading.style.fontSize="100px";
+// heading.classList.add("second")
+
+// create elements
+
+const heading=document.createElement("h1");
+heading.innerHTML="JS is awesome again";
+const parent=document.querySelector(".parent");
+parent.appendChild(heading)
+console.log(heading)
  
